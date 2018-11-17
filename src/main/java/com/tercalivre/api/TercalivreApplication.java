@@ -13,7 +13,7 @@ public class TercalivreApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "API OK!";
 	}
 
 	public static void main(String[] args) {
