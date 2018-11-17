@@ -1,4 +1,4 @@
-package com.tercalivre.api.entidades;
+package com.tercalivre.api.entities;
 
 import java.io.Serializable;
 
