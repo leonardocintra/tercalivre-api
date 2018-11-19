@@ -1,2 +1,2 @@
-# tercalivre-api
-BackEnd das noticias que vão para os apps
+# Terça Livre - API
+Backend do Terça Livre
