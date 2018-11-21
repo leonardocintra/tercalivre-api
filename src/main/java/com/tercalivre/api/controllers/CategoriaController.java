@@ -18,7 +18,7 @@ import com.tercalivre.api.response.TercaLivreResponse;
 import com.tercalivre.api.services.CategoriaService;
 
 @RestController
-@RequestMapping("/api/categoria")
+@RequestMapping("/v1/categoria")
 @CrossOrigin(origins = "*")
 public class CategoriaController {
 
