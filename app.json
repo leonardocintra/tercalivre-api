@@ -1,5 +1,5 @@
 {
-  "name": "Terça Livre - API",
-  "description": "API que fornece as noticias do Terça Livre",
-  "addons": []
+  "name": "Terca Livre - API",
+  "description": "API que fornece as noticias do Terca Livre",
+  "addons": [ "heroku-postgresql" ]
 }
