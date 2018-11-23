@@ -17,6 +17,8 @@ public class Artigo implements Serializable {
 
 	private String titulo;
 
+	private String conteudo;
+
 	public Long getId() {
 		return id;
 	}
@@ -31,5 +33,13 @@ public class Artigo implements Serializable {
 
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
+	}
+
+	public String getConteudo() {
+		return conteudo;
+	}
+
+	public void setConteudo(String conteudo) {
+		this.conteudo = conteudo;
 	}
 }

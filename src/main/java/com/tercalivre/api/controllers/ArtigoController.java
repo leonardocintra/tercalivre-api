@@ -51,6 +51,7 @@ public class ArtigoController {
 		ArtigoDto artigoDto = new ArtigoDto();
 		artigoDto.setId(artigo.getId());
 		artigoDto.setTitulo(artigo.getTitulo());
+		artigoDto.setConteudo(artigo.getConteudo());
 		return artigoDto;
 	}
 
@@ -58,6 +59,7 @@ public class ArtigoController {
 		Artigo artigo = new Artigo();
 		artigo.setId(artigoDto.getId());
 		artigo.setTitulo(artigoDto.getTitulo());
+		artigo.setConteudo(artigoDto.getConteudo());
 		return artigo;
 	}
 
